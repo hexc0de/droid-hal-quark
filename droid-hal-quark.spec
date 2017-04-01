@@ -7,7 +7,6 @@
 %define installable_zip 1
 
 %define droid_target_armv7hl 1
-%define makefstab_skip_entries 1
 
 %define straggler_files \
 /init.mmi.boot.sh \
