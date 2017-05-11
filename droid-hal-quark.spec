@@ -18,4 +18,9 @@
 #define QCOM_BSP 1\
 %{nil}
 
+%define additional_post_scripts \
+/usr/bin/groupadd-user media_rw || :\
+%{nil}
+
+
 %include rpm/dhd/droid-hal-device.inc
