@@ -12,6 +12,8 @@
 /init.mmi.boot.sh \
 /init.mmi.touch.sh \
 /init.mmi.usb.sh \
+/selinux_version \
+/service_contexts \
 %{nil}
 
 %define android_config \
