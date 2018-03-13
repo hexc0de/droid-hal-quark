@@ -12,12 +12,11 @@
 /init.mmi.boot.sh \
 /init.mmi.touch.sh \
 /init.mmi.usb.sh \
-/selinux_version \
-/service_contexts \
 %{nil}
 
 %define android_config \
 #define QCOM_BSP 1\
+#define WANT_ADRENO_QUIRKS 1\
 %{nil}
 
 %define additional_post_scripts \
